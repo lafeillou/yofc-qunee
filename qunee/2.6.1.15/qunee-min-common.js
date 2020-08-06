@@ -10726,6 +10726,9 @@ module.exports = function (t, i, e) {
             }
         },
         _49: function (t, i, e, n, r) {
+            if (this.graph.defaultShiftKey) {
+                r = true
+            }
             if (this.element instanceof Pa) return this._9t(this.element, t, i, e, n, r);
             if (this.element instanceof Ra) return this._5t(this.element, t, i, e, n, r);
             var s = this._leody instanceof qa;
