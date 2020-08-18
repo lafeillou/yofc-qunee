@@ -2980,6 +2980,7 @@ module.exports = function (t, i, e) {
 
     function Ts(t) {
         this.graph = t, this.topCanvas = t.topCanvas, this.handlerSize = Vs ? 8 : 4, this._rotateHandleLength = Vs ? 30 : 20
+        this.graph.resizeInteraction = this
     }
 
     function ms(t, i) {
