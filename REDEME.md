@@ -1,0 +1,2 @@
+1.新增全局等比缩放参数配置（defaultShiftKey）
+2.增加graph实例上全局大小调整框控制工具实例（resizeInteraction）
